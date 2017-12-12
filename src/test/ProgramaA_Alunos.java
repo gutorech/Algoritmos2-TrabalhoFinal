@@ -16,12 +16,12 @@ public class ProgramaA_Alunos {
 			e.printStackTrace();
 			System.exit(1);
 		}
-		ListaEncadeada<Aluno> lista = ListaEncadeada.loadFromFile(arquivo, new OrdenaPorEmail());
+		//ListaEncadeada<Aluno> lista = ListaEncadeada.loadFromFile(arquivo, new OrdenaPorEmail());
 
-		Iterador<Aluno> iterador = lista.iterador();
-		while (iterador.hasNext()) {
-			System.out.println(iterador.next().getEmail());
-		}
+		//Iterador<Aluno> iterador = lista.iterador();
+		//while (iterador.hasNext()) {
+		//	System.out.println(iterador.next().getEmail());
+		//}
 	}
 
 }

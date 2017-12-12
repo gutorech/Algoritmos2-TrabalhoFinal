@@ -8,8 +8,10 @@ public class SearchByAgeAndCity implements Comparator<Aluno> {
 
 	@Override
 	public int compare(Aluno o1, Aluno o2) {
-		// TODO Auto-generated method stub
-		return 0;
+		 if(o1.getCity().equals(o2.getCity()) && o1.getAge() == o2.getAge()){
+	            return 0;
+	        }
+	        return 1;
 	}
 
 }

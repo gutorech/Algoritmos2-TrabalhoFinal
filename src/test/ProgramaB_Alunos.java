@@ -30,7 +30,7 @@ public class ProgramaB_Alunos {
 		Aluno busca = new Aluno(name, email, idade, cidade);
 
 		System.out.println(lista.search(busca, new SearchByName()));
-		lista.removeIf(new NamePredicate(name));
+		//lista.removeIf(new NamePredicate(name));
 		if (lista.search(busca, new SearchByName()) != null)
 			System.out.println(name + " nao deveria estar na lista.");
 
